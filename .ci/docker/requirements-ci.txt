@@ -166,7 +166,7 @@ optree==0.13.0
 #test_pointwise_ops.py, test_dtensor_ops.py, test_torchinductor.py, test_fx.py,
 #test_fake_tensor.py, test_mps.py
 
-pillow==11.0.0
+pillow==13.0.0
 #Description:  Python Imaging Library fork
 #Pinned versions: 11.0.0
 #test that import:
@@ -334,7 +334,7 @@ sympy==1.13.3
 #Pinned versions:
 #test that import:
 
-onnx==1.19.1
+onnx==1.22.0rc1
 #Description: Required by onnx tests, and mypy and test_public_bindings.py when checking torch.onnx._internal
 #Pinned versions:
 #test that import:
@@ -361,7 +361,7 @@ pwlf==2.2.1
 # To build PyTorch itself
 pyyaml==6.0.2
 pyzstd
-setuptools==78.1.1
+setuptools==84.1.0
 packaging==23.1
 six
 
@@ -383,7 +383,7 @@ cmake==3.31.6
 tlparse==0.4.0
 #Description: required for log parsing
 
-filelock==3.18.0
+filelock==4.2.1
 #Description: required for inductor testing
 
 cuda-bindings>=12.0,<13.0 ; platform_machine != "s390x" and platform_system != "Darwin"
